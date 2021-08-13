@@ -1,0 +1,22 @@
+<%- include("partials/header") %>
+
+
+<body>
+    <div class="form-container">
+        <form action="/articles" method="POST">
+            <div class="form-compose">
+
+                <h2>Article Title</h2>
+                <input class="textinput" name="articleTitle" type="text" placeholder="Article Title">
+                <h2>Article Content</h2>
+                <textarea class="textinput" name="articleContent" id="" cols="30" rows="10" placeholder="Article Conetn"></textarea>
+            
+            </div>
+                <button class="submit-btn" type="submit" name="" value="">Submit</button>
+        </form>
+
+    </div>
+    
+    <%- include('partials/footer') %> 
+</body>
+</html>
